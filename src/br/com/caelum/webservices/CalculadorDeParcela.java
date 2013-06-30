@@ -12,7 +12,12 @@ public class CalculadorDeParcela {
 		}
 
 		double oValorTotal = valorTotal * (1 + (quantidade / 100.0));
-		return oValorTotal / quantidade;
+		
+		double parcela = oValorTotal / quantidade;
+		
+		System.out.println(parcela);
+		
+		return parcela;
 	}
 
 }
